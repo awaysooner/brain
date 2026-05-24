@@ -6,6 +6,13 @@ body {
     line-height: 1.7;
     color: #e4e4e7;
     background-color: #09090b;
+    padding: 4rem 1.5rem;
+}
+
+/* Content container */
+body > * {
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 /* Container */
