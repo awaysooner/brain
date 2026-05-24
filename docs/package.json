@@ -1,16 +1,9 @@
 {
-  "name": "docs",
+  "name": "gecko-research",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "build": "npm run build:css && npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   }
 }

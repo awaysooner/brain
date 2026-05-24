@@ -3,12 +3,28 @@ layout: base.njk
 title: Gecko Research
 ---
 
-<h1>Gecko Research</h1>
-<p>Financial research reports by Gecko</p>
+<div class="max-w-3xl">
+  <h1 class="text-4xl font-semibold tracking-tight">Gecko Research</h1>
+  <p class="mt-3 text-lg text-slate-600">Financial research reports by Gecko.</p>
+</div>
 
-<h2>Latest Reports</h2>
-<ul>
-  <li><a href="/ETN/ETN_Analysis_Report.html">$ETN — Eaton Corporation</a></li>
-  <li><a href="/BE/BE_Earnings_Deals_Report_v2.html">$BE — Bloom Energy</a></li>
-  <li><a href="/IREN/IREN_Research_Report.html">$IREN — Iris Energy</a></li>
-</ul>
+<div class="mt-12">
+  <h2 class="text-xl font-semibold mb-6">Latest Reports</h2>
+  
+  <div class="grid gap-4">
+    <a href="/ETN/ETN_Analysis_Report.html" class="block p-6 bg-white border border-slate-200 rounded-xl hover:shadow-sm transition">
+      <div class="font-medium">$ETN — Eaton Corporation</div>
+      <div class="text-sm text-slate-500 mt-1">Board Analysis • May 24, 2026</div>
+    </a>
+    
+    <a href="/BE/BE_Earnings_Deals_Report_v2.html" class="block p-6 bg-white border border-slate-200 rounded-xl hover:shadow-sm transition">
+      <div class="font-medium">$BE — Bloom Energy</div>
+      <div class="text-sm text-slate-500 mt-1">Earnings & Strategic Deals • May 23, 2026</div>
+    </a>
+    
+    <a href="/IREN/IREN_Research_Report.html" class="block p-6 bg-white border border-slate-200 rounded-xl hover:shadow-sm transition">
+      <div class="font-medium">$IREN — Iris Energy</div>
+      <div class="text-sm text-slate-500 mt-1">AI Cloud Transition • May 24, 2026</div>
+    </a>
+  </div>
+</div>
