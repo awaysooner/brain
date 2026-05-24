@@ -1,12 +1,7 @@
 title: Gecko Research
 description: Financial research reports by Gecko
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman
 
 plugins:
   - jekyll-feed
-
-minima:
-  skin: dark
-  social_links:
-    - { platform: github, user_url: "https://github.com/awaysooner/brain" }
