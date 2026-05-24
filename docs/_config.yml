@@ -1,0 +1,11 @@
+title: Gecko Research
+description: Financial research reports by Gecko
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/awaysooner/brain" }
