@@ -101,12 +101,13 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #27272a;
     padding: 10px;
 }
 
 th {
-    background: #f8f9fa;
+    background: #18181b;
+    color: #f4f4f5;
 }
 
 .positive {
