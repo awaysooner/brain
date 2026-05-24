@@ -1,7 +1,7 @@
 title: Gecko Research
 description: Financial research reports by Gecko
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/theme-slate
 
 plugins:
   - jekyll-feed
